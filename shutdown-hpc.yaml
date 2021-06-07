@@ -1,0 +1,6 @@
+- name: Shutdown HPC Machines
+  hosts: all
+  tasks:
+    - name: Shuting down
+      debug:
+        msg: "Servers shutdown!"
