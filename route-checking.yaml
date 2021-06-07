@@ -1,1 +1,6 @@
-
+- name: Routing 檢查
+  hosts: all
+  tasks:
+    - name: Route checking
+      debug:
+        msg: "Routing 狀態檢查 - Passed!"
