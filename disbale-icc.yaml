@@ -1,1 +1,6 @@
-
+- name: 關閉ICC
+  hosts: all
+  tasks:
+    - name: Disable ICC
+      debug:
+        msg: "關閉ICC - Disabled!"
