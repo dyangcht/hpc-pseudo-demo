@@ -1,0 +1,6 @@
+- name: 關機檢查
+  hosts: all
+  tasks:
+    - name: Shutdown checking
+      debug:
+        msg: "關機檢查 - Stopped’!"
