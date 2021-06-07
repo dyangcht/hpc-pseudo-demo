@@ -3,4 +3,4 @@
   tasks:
     - name: Shutdown checking
       debug:
-        msg: "關機檢查 - Stopped’!"
+        msg: "關機檢查 - Stopped!"
