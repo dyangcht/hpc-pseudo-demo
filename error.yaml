@@ -1,0 +1,6 @@
+- name: Shutdown fefs
+  hosts: all
+  tasks:
+    - name: Shutdown fefs
+      debug:
+        msg: "fefs shutdown!"
