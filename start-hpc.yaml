@@ -1,0 +1,6 @@
+- name: Startup HPC Machines
+  hosts: all
+  tasks:
+    - name: Start up
+      debug:
+        msg: "Servers starting up!"
