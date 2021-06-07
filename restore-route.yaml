@@ -1,0 +1,6 @@
+- name: 恢復 ICC 的 routing
+  hosts: all
+  tasks:
+    - name: Restore ICC Routing
+      debug:
+        msg: "恢復 ICC 的 routing"
