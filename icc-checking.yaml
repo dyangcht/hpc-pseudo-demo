@@ -1,0 +1,6 @@
+- name: ICC 狀態檢查
+  hosts: all
+  tasks:
+    - name: ICC checking
+      debug:
+        msg: "ICC 狀態檢查 - ICC_Disable!"
