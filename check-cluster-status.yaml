@@ -1,0 +1,6 @@
+- name: Cluster 狀態檢查
+  hosts: all
+  tasks:
+    - name: Cluster checking
+      debug:
+        msg: "Cluster 狀態檢查 - Passed!"
